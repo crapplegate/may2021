@@ -9,36 +9,44 @@
     <!-- links to css, fonts, styles, etc -->
     <link rel="stylesheet" href="css/style.css">
 
+    <script defer src="js/scripts.js"></script>
+
     <title>Working Page for May</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <!-- <div id="logo">
+            <img src="img/logo.png" height="100vh" width="100vw">
+        </div>
+         -->
+        <nav id="nave-menu">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
+                <li class="nav-list">Home</li>
+                <li class="nav-list">About</li>
+                <li class="nav-list">Contact Us</li>
             </ul>
         </nav>
-
-        <div class="main-head">
-            <h1>Hello, World!</h1>
-        </div>
+          
     </header>
 
-
+<!-- Main page content -->
     <main>
-        <div class="column" id="column-1">Column 1</div>
-        <div class="column" id="column-2">Column 2</div>
-        <div class="column" id="column-3">Column 3</div>
+        <div class="column" id="column-1">
+            <button id="action-btn" class="btn-primary">Cool Action</button>
+
+
+        </div>
+        <!-- <script src="js/getPhoto.js"></script> -->
+        <div class="column" id="column-2">Column 2 - insert random picture</div>
+        <div class="column" id="column-3">Column 3 - insert random picture</div>
     </main>
 
     <footer>
-    <p>$copy; Copywrite 2021</p>
+        <p>&copy; Copywrite 2021</p>
     </footer>
 
-
+    
 
 </body>
 
